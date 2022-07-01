@@ -6,6 +6,7 @@
     --yellow-color: #FFD84B;
     --gray-color: #a2a3B0;
     --dark-gray-color: #58585B;
+    --orange-color: #ff8f76
 }
 
 /* Fonts */
@@ -26,10 +27,149 @@
     src: url(fonts/Allrounder-Medium.otf);
 }
 
-/* EXPLORE */
-body{
-    margin: 0;
-    padding: 0;
-    font-family: Jeko, sans-serif;
-    color: var(--dark-gray-color);
+#offcanvasWithBackdrop {
+    background-color: var(--dark-purple-color);
+}
+
+.offcanvas-start {
+    width: 230px;
+
+}
+
+.wrapper {
+    padding: 8% 7.5% 5%;
+}
+
+#back-button {
+    margin-top: 30px;
+}
+.name {
+    color: #4b4fc4;
+}
+
+.container-fluid {
+    padding: 2% 0 5%;
+}
+
+.list-group {
+    padding: 0px;
+    padding-top: 200px;
+
+}
+
+.list-group-item {
+    background-color: transparent;
+    border: 0ch;
+    border-radius: 0;
+    color: #fff;
+    cursor: pointer;
+    margin-bottom: 15px;
+    font-family: Allrounder-regular;
+    }
+
+#logout-sidebar {
+    color: var(--orange-color);
+}
+
+.explore-content-top {
+    margin: 2% 7.5% 5%;
+}
+
+.search-box {
+
+    width: 90%;
+    font-size: 15px;
+}
+
+.search-section {
+    padding-top: 5% 7.5% 0;
+}
+
+.search-bar {
+    position: relative;
+    display: flex;
+    min-width: 100px;
+    padding: 3% 0 10%;
+  }
+
+
+.search-icon {
+    position: absolute;
+    top: 23%;
+    left: 8px;
+    width: 14px;
+  }
+
+.search-box {
+    border: 1px solid #4b4fc4;
+    border-radius: 200px;
+    height: 28px;
+    width: 300px;
+    padding: 2px 23px 2px 30px;
+    font-size: 10px ;
+  }
+
+.category-section {
+   width: 100%;
+}
+.category-list {
+    display: flex;
+    overflow-x: auto;
+    -ms-overflow-style: none; /* Hide the scrollbar for MS Edge */
+    scrollbar-width: none; /* Hide the scrollbar for Mozilla Firefox */
+  
+    margin: 0 auto 0 auto;
+    width: 100%;
+    height: fit-content;
+    
+    border: 0;
+    
+  }
+  
+.category-list::-webkit-scrollbar {
+    display: none; /* Hide the scrollbar on Webkit based browsers (Chrome, Safari, etc) */
+    -webkit-overflow-scrolling: touch; /* On touch screens the content continues to scroll for a while after finishing the scroll gesture */
+  }
+
+#category-text {
+    padding-left: 7.5%;
+}
+
+.category {
+    margin: 2% 2.5% 0;
+}
+
+.infography-section {
+    margin: 5% 7.5% 5%;
+}
+
+.recommendation-section {
+    margin: 7% 0 5%;
+}
+
+#recommendation-text {
+    padding: 0 7.5% 0
+}
+
+.recommendation-list {
+    display: flex;
+    overflow-x: auto;
+    -ms-overflow-style: none; /* Hide the scrollbar for MS Edge */
+    scrollbar-width: none; /* Hide the scrollbar for Mozilla Firefox */
+  
+    margin: 0 auto 0 auto;
+    width: 100%;
+    height: fit-content;
+    
+    border: 0;
+    
+  }
+  
+.recommendation-list::-webkit-scrollbar {
+    display: none; /* Hide the scrollbar on Webkit based browsers (Chrome, Safari, etc) */
+    -webkit-overflow-scrolling: touch; /* On touch screens the content continues to scroll for a while after finishing the scroll gesture */
+  }
+
+.recommendation {
+    margin: 2% 2.5% 0 0;
 }
